@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&family=Open+Sans:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background:rgb(211, 178, 239);
+}
+#signUp{
+    margin :40px;  
+}
+
+#signUp .container{
+    margin-top: 102px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background:white;
+    height: 560px;
+}
+
+#signUp .container #items{
+    background:white;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+#signUp .container #items h1{
+    margin-top: -50px;
+    font-size: 50px;
+    text-align: center;
+    background:white;
+    margin-left: -66px;
+    margin-bottom: 22px;
+}
+
+#signUp .container input{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 40px;
+    border-radius: 2px ;
+    outline: none;
+    background-color: #dedcea;
+    border: #dedcea;
+    margin-left: -80px;
+    padding: 10px;
+}
+#signUp .container button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: darkmagenta;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    margin-top: 0px;
+    margin-left: -90px;
+    color: white;
+}
+#signUp .container button:hover{
+    background-color: #94528a;;
+    font-size: 16px;
+}
+#signUp .container a{
+    text-decoration: none;
+}
+#signUp .container a:hover{
+    color: #94528a;
+}
+
+#signUp2{
+    margin-top: -10px;
+}
+#signUp2 .container2{
+    margin-top: 182px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background:white;
+    height: 360px;
+    width: 500px;
+}
+#signUp2 .container2 #items2{
+    background:white;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+#signUp2 .container2 #items2 h1{
+    margin-top: -50px;
+    font-size: 50px;
+    text-align: center;
+    background:white;
+    margin-left: -80px;
+    margin-bottom: 40px;
+}
+#signUp2 .container2 input{
+    margin-bottom: 10px;
+    width: 340px;
+    height: 30px;
+    border-radius: 2px ;
+    outline: none;
+    background-color: #dedcea;
+    border: #dedcea;
+    padding: 20px;
+    margin-top: -650px;
+    margin-left: -75px;
+}
+#signUp2 .container2 button{
+    width: 250px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: darkmagenta;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    margin-top: 10px;
+    margin-left: -75px;
+    color: white;
+}
+#signUp2 .container2 button:hover{
+    background-color: #94528a;;
+    font-size: 16px;
+}
+#signUp2 .container2 a{
+    text-decoration: none;
+}
+#signUp2 .container2 a:hover{
+    color: #94528a;
+}
+#notes{
+    margin: 0px;
+}
+
+#notes .container3{
+    background:white;
+    margin: 30px;
+}
+
+#notes h1{
+    font-size: 45px;
+    margin-left: 38px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+#notes .container3 #items3{
+    background-color: white;
+    height: 550px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 30px;
+}
+#notes .container3 #items3 span{
+    background-color: white;
+    font-size: 25px;
+}
+
+#notes .container3 #items3 #title{
+    margin-left: 20px;
+    margin-top: -10px;
+    width: 340px;
+    height: 30px;
+    border-radius: 2px ;
+    outline: none;
+    background-color: #dedcea;
+    border: #dedcea;
+    padding: 20px;
+}
+#notes .container3 #items3 #description{
+    margin-left: 20px;
+    margin-top: -10px;
+    width: 340px;
+    height: 100px;
+    border-radius: 2px ;
+    outline: none;
+    background-color: #dedcea;
+    border: #dedcea;
+    padding: 20px;
+}
+
+#notes .container3 #items3 button{
+    width: 250px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    border:1px solid #94528a;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    margin-top: 10px;
+    color: #94528a;
+}
+#notes .container3 #items3  button:hover{   
+    background-color: darkmagenta;
+    color: #ffffff;
+}
+#notes .arrow{
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: -60px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+#notes .arrow .logout{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s ease;
+}
+#notes .arrow .logout:hover{
+    color: #94528a;
+}
+#notes .container{
+    background:white;
+    margin: 50px;
+    height: 500px;
+}
+#notes .container #table{
+    background:white;
+    margin-top: -110px;
+    margin-left: 110px;
+}
+
+#notes .container3 #items3 #deleteBtn{
+    width: 120px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px 20px;
+    color: white;
+    border:1px solid white;
+    background-color: red;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    color: white;
+    margin-left: 50px;
+}
+#notes .container3 #items3 #deleteBtn:hover{
+    background-color: rgb(173, 9, 9);
+    color: white;
+    font-size: 13px;
+}
+
+#notes .container3 #items3 #confirm{
+    width: 180px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px 20px;
+    color: white;
+    border:1px solid white;
+    background-color: rgb(43, 214, 43);
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    color: white;
+    margin-left: 50px;
+}
+#notes .container3 #items3 #confirm:hover{
+    background-color: green;
+    color: white;
+    font-size: 13px;
+}
+
+
